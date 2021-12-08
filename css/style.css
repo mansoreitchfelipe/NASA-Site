@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+header{
+    background-color: white;
+    padding: 20px 0;
+}
+
+.logo{
+    color: rgb(204, 0, 255);
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.menu{
+    width: 80%;
+    text-align: right;
+}
+
+.menu a{
+    color: rgb(204, 0, 255);
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 18px;
+
+}
+
+.menu a:hover{
+    color: rgb(255, 0, 157);
+    transition: 0.5s;
+}
+
+.main-section{
+    background-image: linear-gradient(rgb(255, 0, 157), rgb(204, 0, 255));
+    height: 510px;
+    color: white;
+}
+
+.div-qs{
+    padding: 10px;
+    text-align: center;
+}
+
+.h1-qs{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.img-qs{
+    max-width: 720px;
+    border-radius: 10px;
+    margin-left: 5px;
+    float: left;
+}
+
+.p-qs{
+    font-size: 35px;
+    text-align: right;
+    margin-top: 125px;
+}
+
+.missao-section{
+    background-color: white;
+    height: 500px;
+    color: rgb(255, 0, 157);
+}
+
+.div-missao{
+    padding: 10px;
+    text-align: center
+}
+
+.h1-missao{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.img-missao{
+    max-width: 620px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.p-missao{
+    font-size: 35px;
+    text-align: right;
+    margin-top: 125px;
+}
+
+.visao-section{
+    background-image: linear-gradient(rgb(255, 0, 157), rgb(204, 0, 255));
+    height: 500px;
+    color: white;
+}
+
+.div-visao{
+    padding: 10px;
+    text-align: center
+}
+
+.h1-visao{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.img-visao{
+    max-width: 700px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.p-visao{
+    font-size: 33px;
+    text-align: right;
+    margin-top: 125px;
+}
+
+.valores-section{
+    background-color: white;
+    height: 500px;
+    color: rgb(255, 0, 157);
+}
+
+.div-valores{
+    padding: 10px;
+    text-align: center
+}
+
+.h1-valores{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.img-valores{
+    max-width: 660px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.p-valores{
+    font-size: 33px;
+    text-align: center;
+    margin-top: 125px;
+    margin-right: 110px;
+    margin-left: 50px;
+}
+
+
+.equipe-section{
+    background-image: linear-gradient(rgb(255, 0, 157), rgb(204, 0, 255));
+    height: 500px;
+    color: white;
+}
+
+.div-equipe{
+    padding: 10px;
+    text-align: center
+}
+
+.h1-equipe{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.img-equipe{
+    max-height: 410px;
+}
+
+footer{
+    height: 50px;
+    text-align: center;
+    background-color: rgb(204, 0, 255);
+    padding-top: 10px;
+    color: white;
+}
